@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:srcCompat="@drawable/ic_cancel"-->
+<!--        android:elevation="20dp"-->
+<!--        android:padding="5dp"-->
+<!--        android:id="@+id/close_btn"-->
+<!--        ></ImageView>-->
+
+
+    <ImageButton
+        android:id="@+id/close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        app:srcCompat="@drawable/ic_cancel"/>
+
+    <fragment
+        android:id="@+id/popup_map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

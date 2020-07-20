@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sneaky.f_createlist"
+    android:background="@color/colormenu"
+    android:clickable="true"
+    android:elevation="20dp"
+    android:id="@+id/list_frame">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/userlogin"
+        android:id="@+id/user_view"
+        android:weightSum="5"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:contextClickable="false"
+            app:srcCompat="@drawable/ic_todolist"
+            ></ImageView>
+
+        <TextView
+            android:id="@+id/list_name_txt"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:clickable="false"
+            android:textColor="#fff"/>
+
+        <ImageView
+            android:id="@+id/cancel_action"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_cancel"
+            android:clickable="true"
+            ></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <EditText
+            android:id="@+id/item_edit_text"
+            android:hint="Enter Item"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            >
+        </EditText>
+        <Button
+            android:text="Add"
+            android:id="@+id/add_button"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button"
+            ></Button>
+    </LinearLayout>
+    
+    <ListView
+        android:layout_marginTop="130dp"
+        android:id="@+id/item_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        ></ListView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button_save"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/ic_save"/>
+
+</FrameLayout>

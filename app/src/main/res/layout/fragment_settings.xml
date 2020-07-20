@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sneaky.SettingsFragment"
+    android:background="@color/colormenu"
+    android:elevation="30dp"
+    android:clickable="true">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/userlogin"
+        android:id="@+id/user_view"
+        android:weightSum="4"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:contextClickable="false"
+            app:srcCompat="@drawable/ic_user"
+            ></ImageView>
+
+        <TextView
+            android:id="@+id/usernamet"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="Settings"
+            android:textSize="20dp"
+            android:gravity="center|left"
+            android:clickable="false"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/SettingList"
+        ></ListView>
+
+
+
+
+</FrameLayout>

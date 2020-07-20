@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "50089649346",
+    "firebase_url": "https://sneaky-a8988.firebaseio.com",
+    "project_id": "sneaky-a8988",
+    "storage_bucket": "sneaky-a8988.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50089649346:android:1e44b7e5748452a521875b",
+        "android_client_info": {
+          "package_name": "com.example.currentlocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50089649346-s03rrgjo7euophcked2tkkt4funhc6oe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.currentlocation",
+            "certificate_hash": "9d4bc5fdd90d3acbc7517844e326e417cb4f8d62"
+          }
+        },
+        {
+          "client_id": "50089649346-nfr5ga1nem0vetdu4ro7vjohr7e0to1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZYPPvvWJYgvW4a4cxCgnIafm5CpZ5VtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50089649346-nfr5ga1nem0vetdu4ro7vjohr7e0to1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

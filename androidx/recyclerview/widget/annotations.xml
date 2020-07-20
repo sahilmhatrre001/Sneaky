@@ -1,0 +1,5 @@
+<root>
+    <item name='androidx.recyclerview.widget.RecyclerView.ViewHolder'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
